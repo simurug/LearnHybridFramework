@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12055" started-at="2016-10-16T22:45:03Z" finished-at="2016-10-16T22:45:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12055" started-at="2016-10-16T22:45:03Z" finished-at="2016-10-16T22:45:15Z">
+      <class name="testcases.VerifyHomePage">
+        <test-method status="PASS" signature="intialconfig()[pri:0, instance:testcases.VerifyHomePage@475530b9]" name="intialconfig" is-config="true" duration-ms="11111" started-at="2016-10-16T16:45:03Z" finished-at="2016-10-16T16:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialconfig -->
+        <test-method status="PASS" signature="createnewstore()[pri:0, instance:testcases.VerifyHomePage@475530b9]" name="createnewstore" duration-ms="182" started-at="2016-10-16T16:45:14Z" finished-at="2016-10-16T16:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewstore -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHomePage@475530b9]" name="teardown" is-config="true" duration-ms="748" started-at="2016-10-16T16:45:14Z" finished-at="2016-10-16T16:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createnewstore status=SUCCESS method=VerifyHomePage.createnewstore()[pri:0, instance:testcases.VerifyHomePage@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.VerifyHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
